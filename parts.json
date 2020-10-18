@@ -105,7 +105,86 @@
 }
 
 {
-    
+"case": {
+    "sizes": [
+        {
+            "formFactor": "ATX",
+            "products": [
+                {
+                    "name": "LianLi 011 Dynamic",
+                    "color": "black",
+                    "cost": 139.99
+                },
+                {
+                    "name": "NZXT H510",
+                    "color": "black",
+                    "cost": 69.99
+                }
+            ]
+         },
+         {
+             "formFactor": "mATX",
+             "products": [
+                 {
+                     "name": "LianLi 205M",
+                     "color": "black",
+                     "cost": 64.99
+                },
+                {
+                    "name": "Corsair Crystal 280X",
+                    "color": "white",
+                    "cost": 160.99
+                }
+            ]
+        }
+     ]
+   }
 }
-  
+
+{
+"gpu": {
+    "brands": [
+        {
+            "brandName": "amd",
+            "products": [
+                {
+                    "name": "MSI Armor RX580",
+                    "powerConsumption": 185,
+                    "cost": 199.99
+                },
+                {
+                    "name": "MSI Mech 5700XT",
+                    "powerConsumption": 225,
+                    "cost": 369.99
+                },
+                {
+                    "name": "XFX Radeon VII Pro",
+                    "powerConsumption": 295,
+                    "cost": 1299.99
+                }
+            ]
+         },
+         {
+             "brandName": "nvidia",
+             "products": [
+                 {
+                    "name": "Nvidia 1060 FE",
+                    "powerConsumption": 120,
+                    "cost": 259.99
+                },
+                {
+                    "name": "Nvidia 3080 FE",
+                    "powerConsumption": 350,
+                    "cost": 699.99
+                },
+                {
+                    "name": "Nvidia 2070 FE",
+                    "powerConsumption": 215,
+                    "cost": 499.99
+                }
+            ]
+        }
+     ]
+   }
+}
 
