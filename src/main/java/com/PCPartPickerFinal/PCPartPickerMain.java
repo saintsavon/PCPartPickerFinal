@@ -35,6 +35,16 @@ public class PCPartPickerMain {
 				}
 			}
 			
+			for (CASESize formFactor: ppl.getCase().getFormFactor()) {
+				if (formFactor.getFormFactor().equals("ATX")) {
+					System.out.println(formFactor);
+				} else if (formFactor.getFormFactor().equals("mATX")) {
+					System.out.println(formFactor);
+				} else {
+					System.out.checkError();
+				}
+			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
