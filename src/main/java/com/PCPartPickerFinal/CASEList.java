@@ -20,7 +20,7 @@ public class CASEList {
 
 	@Override
 	public String toString() {
-		return "CASEList [brands=" + Arrays.toString(formFactor) + "]";
+		return "CASEList [form factors=" + Arrays.toString(formFactor) + "]";
 	}
 
 	public CASEList(CASESize[] formFactor) {
