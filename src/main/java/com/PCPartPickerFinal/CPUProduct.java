@@ -42,6 +42,7 @@ public class CPUProduct {
 		return "CPUProduct [name=" + name + ", chipset=" + chipset + ", powerConsumption=" + powerConsumption
 				+ ", cost=" + cost + "]";
 	}
+	
 	public CPUProduct(String name, String chipset, int powerConsumption, double cost) {
 		super();
 		this.name = name;
