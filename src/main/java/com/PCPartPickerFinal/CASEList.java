@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 public class CASEList {
 	
-	private CASEBrand[] brands;
+	private CASESize[] formFactor;
 	
-	public CASEBrand[] getBrands() {
-		return brands;
+	public CASESize[] getFormFactor() {
+		return formFactor;
 	}
 	
-	public void setBrands(CASEBrand[] brands) {
-		this.brands = brands;
+	public void setBrands(CASESize[] formFactor) {
+		this.formFactor = formFactor;
 	}
 	
 	public CASEList() {
@@ -20,12 +20,12 @@ public class CASEList {
 
 	@Override
 	public String toString() {
-		return "CASEList [brands=" + Arrays.toString(brands) + "]";
+		return "CASEList [brands=" + Arrays.toString(formFactor) + "]";
 	}
 
-	public CASEList(CASEBrand[] brands) {
+	public CASEList(CASESize[] formFactor) {
 		super();
-		this.brands = brands;
+		this.formFactor = formFactor;
 	}
  
 }

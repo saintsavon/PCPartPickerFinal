@@ -4,6 +4,7 @@ public class PCPartsList {
 
 	private CPUList cpu;
 	private MOBOList mobo;
+	private CASEList case;
 
 	public CPUList getCpu() {
 		return cpu;
@@ -19,6 +20,14 @@ public class PCPartsList {
 	
 	public void setMobo(MOBOList mobo) {
 		this.mobo = mobo;
+	}
+	
+	public CASEList getCase() {
+		return case;
+	}
+	
+	public void setCase(CASEList case) {
+		this.case = case;
 	}
 
 	public PCPartsList() {
