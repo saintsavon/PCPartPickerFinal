@@ -7,6 +7,7 @@ public class PCPartsList {
 	private CASEList cases;
 	private GPUList gpu;
 	private RAMList ram;
+	private PSUList psu;
 	
 	public CPUList getCpu() {
 		return cpu;
@@ -39,6 +40,13 @@ public class PCPartsList {
 		this.ram = ram;
 	}
 	
+	public PSUList getPsu() {
+		return psu;
+	}
+	public void setPsu(PSUList psu) {
+		this.psu = psu;
+	}
+	
 	public PCPartsList() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -47,16 +55,17 @@ public class PCPartsList {
 	@Override
 	public String toString() {
 		return "PCPartsList [cpu=" + cpu + ", mobo=" + mobo + ", cases=" + cases + ", gpu=" + gpu + ", ram=" + ram
-				+ "]";
+				+ ", psu=" + psu + "]";
 	}
 	
-	public PCPartsList(CPUList cpu, MOBOList mobo, CASEList cases, GPUList gpu, RAMList ram) {
+	public PCPartsList(CPUList cpu, MOBOList mobo, CASEList cases, GPUList gpu, RAMList ram, PSUList psu) {
 		super();
 		this.cpu = cpu;
 		this.mobo = mobo;
 		this.cases = cases;
 		this.gpu = gpu;
 		this.ram = ram;
+		this.psu = psu;
 	}
 	
 	
