@@ -188,3 +188,118 @@
    }
 }
 
+{
+"ram": {
+    "storage": [
+        {
+                "storageAmount": "8GB",
+                "products": [
+                    {
+                        "name": "Corsair Vengeance LPX",
+                        "CASLatency": 16,
+                        "clockSpeed": 3200,
+                        "cost": 39.99
+                    },
+                    {
+                        "name": "G.Skill Ripjaws V",
+                        "CASLatency": 19,
+                        "clockSpeed": 3600,
+                        "cost": 32.99
+                    }
+                ]
+            },
+            {
+                "storageAmount": "16GB",
+                "products": [
+                    {
+                        "name": "Corsair Vengeance LPX",
+                        "CASLatency": 16,
+                        "clockSpeed": 3200,
+                        "cost": 62.99
+                    },
+                    {
+                        "name": "G.Skill Ripjaws V",
+                        "CASLatency": 16,
+                        "clockSpeed": 3600,
+                        "cost": 78.89
+                    }
+                ]
+            },
+            {
+                "storageAmount": "32GB",
+                "products": [
+                    {
+                        "name": "Corsair Vengeance LPX",
+                        "CASLatency": 16,
+                        "clockSpeed": 3200,
+                        "cost": 114.99
+                    },
+                    {
+                        "name": "G.Skill Ripjaws V",
+                        "CASLatency": 16,
+                        "clockSpeed": 3600,
+                        "cost": 144.99
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+{
+"psu": {
+    "watts": [
+        {
+                "wattage": "650",
+                "products": [
+                    {
+                        "name": "Corsair 650W CX",
+                        "modularity": "semi",
+                        "rating": "80+ Bronze",
+                        "cost": 94.99
+                    },
+                    {
+                        "name": "EVGA Super Nova 650W G5",
+                        "modularity": "full",
+                        "rating": "80+ Gold",
+                        "cost": 110.99
+                    }
+                ]
+            },
+            {
+                "brandName": "850",
+                "products": [
+                    {
+                        "name": "Corsair 850W RMx",
+                        "modularity": "full",
+                        "rating": "80+ Gold",
+                        "cost": 144.99
+                    },
+                    {
+                        "name": "EVGA Super Nova 850W G5",
+                        "modularity": "full",
+                        "rating": "80+ Gold",
+                        "cost": 159.99
+                    }
+                ]
+            },
+            {
+                "brandName": "1000",
+                "products": [
+                    {
+                        "name": "Corsair 1000W HX",
+                        "modularity": "full",
+                        "rating": "80+ Platinum",
+                        "cost": 249.99
+                    },
+                    {
+                        "name": "EVGA Super Nova 1000W G+",
+                        "modularity": "full",
+                        "rating": "80+ Gold",
+                        "cost": 199.99
+                    }
+                ]
+            }
+        ]
+    }
+}
