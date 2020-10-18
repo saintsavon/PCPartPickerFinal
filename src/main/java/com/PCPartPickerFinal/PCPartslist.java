@@ -1,4 +1,4 @@
-package com.PCPartPicker;
+package com.PCPartPickerFinal;
 
 public class PCPartsList {
 
