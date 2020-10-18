@@ -45,6 +45,16 @@ public class PCPartPickerMain {
 				}
 			}
 			
+			for (GPUBrand brand: ppl.getGpu().getBrands()) {
+				if (brand.getBrandName().equals("amd")) {
+					System.out.println(brand);
+				} else if (brand.getBrandName().equals("nvidia")) {
+					System.out.println(brand);
+				} else {
+					System.out.checkError();
+				}
+			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
