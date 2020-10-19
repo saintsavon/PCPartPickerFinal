@@ -12,43 +12,13 @@ public class PCPartPickerMain {
 		
 		try {
 			PCPartsList ppl = om.readValue(new InputStreamReader(new FileInputStream("parts.json")), PCPartsList.class);
-			//System.out.println(ppl);
-			//System.out.println(ppl.getCpu().getBrands()[1].getBrandName());
+			System.out.println(ppl);
+			System.out.println(ppl.getCpu().getBrands()[1].getBrandName());
 			
 			for (CPUBrand brand: ppl.getCpu().getBrands()) {
 				if (brand.getBrandName().equals("intel")) {
 					System.out.println(brand);
 				} else if (brand.getBrandName().equals("amd")){
-					System.out.println(brand);
-				} else {
-					System.out.checkError();
-				}
-			}
-			
-			for (MOBOBrand brand: ppl.getMobo().getBrands()) {
-				if (brand.getBrandName().equals("intel")) {
-					System.out.println(brand);
-				} else if (brand.getBrandName().equals("amd")){
-					System.out.println(brand);
-				} else {
-					System.out.checkError();
-				}
-			}
-			
-			for (CASESize formFactor: ppl.getCases().getFormFactor()) {
-				if (formFactor.getFormFactor().equals("ATX")) {
-					System.out.println(formFactor);
-				} else if (formFactor.getFormFactor().equals("mATX")) {
-					System.out.println(formFactor);
-				} else {
-					System.out.checkError();
-				}
-			}
-			
-			for (GPUBrand brand: ppl.getGpu().getBrands()) {
-				if (brand.getBrandName().equals("amd")) {
-					System.out.println(brand);
-				} else if (brand.getBrandName().equals("nvidia")) {
 					System.out.println(brand);
 				} else {
 					System.out.checkError();
