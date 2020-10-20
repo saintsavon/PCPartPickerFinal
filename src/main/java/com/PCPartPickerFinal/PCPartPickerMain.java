@@ -46,16 +46,18 @@ public class PCPartPickerMain {
 			for (CPUBrand brand: ppl.getCpu().getBrands()) {
 				if (brand.getBrandName().equals(cpuBrand_choice)) {
 					String CPUBrandChoices = om.writerWithDefaultPrettyPrinter().writeValueAsString(brand);
-					System.out.println(CPUBrandChoices);
+					System.out.println("\nHere are all of our Intel CPU's:");
+					
+					System.out.println("\n" + CPUBrandChoices);
 				} else {
-					System.out.println("Please select either intel or amd"); // bug here that always prints at least once
+					System.out.println("\nPlease select either intel or amd"); // bug here that always prints at least once
 				}
 			} 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Which CPU would you like to purchase?");
+		System.out.println("\nWhich CPU would you like to purchase?");
 		String chosen_cpu = scan.nextLine();
 		
 		try {
